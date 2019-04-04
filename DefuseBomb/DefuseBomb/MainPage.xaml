@@ -5,10 +5,33 @@
              x:Class="DefuseBomb.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+
+        <Label Text="Avoid triggering the bomb!" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="Center" />
+
+
+        <Button Text="1" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="Center"
+              Clicked="ButtonClicked"/>
+        
+        <Button Text="2" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="Center"
+                Clicked="ButtonClicked"/>
+        
+        <Button Text="3" 
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="Center" 
+                Clicked="ButtonClicked"/>
+
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Nassima Application Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+        
+        
     </StackLayout>
 
 </ContentPage>
